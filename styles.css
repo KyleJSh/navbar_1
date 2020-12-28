@@ -63,7 +63,7 @@ Global Styles
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: var(--clr-primary-9);
+  background-color: var(--clr-primary-10);
   color: var(--clr-grey-6);
 }
 
@@ -143,6 +143,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 100px;
+  background-image: linear-gradient(hsla(205, 89%, 70%, 0.2), hsla(205, 89%, 70%, 1))
 }
 
 .logo {
@@ -151,17 +152,12 @@ nav {
 }
 
 .logo a {
-  color: var(--clr-primary-3);
-}
-
-
-.links {
-
+  color: var(--clr-primary-2);
 }
 
 .links a {
-  color: var(--clr-primary-5);
-  font-size: 1.3rem;
+  color: var(--clr-primary-3);
+  font-size: 1.5rem;
 }
 
 .links a:hover {
